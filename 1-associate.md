@@ -3,7 +3,7 @@
 Imagine you have a record of how much rain fell every day for the last ten years in your city. With enough of that data, you could probably guess whether tomorrow is likely to be rainy or dry, just from the patterns: the time of year, the recent weather, what usually follows a storm. Artificial intelligence (AI) is software that does this kind of guessing, but at a much larger scale and faster than a person could.
 
 More precisely, AI is software that learns from data (examples of what has happened before) and uses what it learned to make predictions or produce something new. The data can be anything: numbers like rainfall amounts, text like emails, or images like x-rays.
-```text
+```
 +Often, the relationships between these data points are far too complex for a person to work out by hand — that complexity is exactly why we turn to AI to find them.+
 ```
 The idea is always the same: study many past examples, find the patterns, and use them to handle a new situation.
@@ -19,7 +19,7 @@ Assistance is when AI produces a draft for you. You give it a request and some c
 
 The writing usually sounds fluent and professional. But the AI is producing what looks like a likely answer, not checking whether it is true for your situation, so it can be confidently wrong. Treat the draft as a starting point you review and fix, not a finished product.
 
-```text
+```
 +A practical example is legal or compliance reporting. These reports are often extremely long and time-consuming to produce, and AI can drastically cut down the time it takes to write them. This does raise some data privacy concerns, though — uploading confidential information to an external organization's systems is a real issue, and we'll come back to that later.+
 ```
 
@@ -31,7 +31,7 @@ Ready-made tools are the fastest way to start using AI.
 
 Examples include AI assistants, writing tools, meeting-note generators, and spreadsheet copilots. The vendor handles the infrastructure, maintenance, and updates, allowing users to focus on the task itself.
 
-```text
+```
 -Imagine an operations team that needs to process customer requests faster. Instead of waiting for a new software project, they use a ready-made AI tool to draft summaries and recommendations. Within weeks, they see measurable time savings.-
 
 +Imagine a 20-person customer support team at a software company, where agents spend most of their day answering repetitive questions about billing, password resets, and account setup. Instead of waiting for a new software project, an agent copies a customer's question into a ready-made AI writing tool, which drafts a reply in seconds. The agent reviews it, tweaks a line or two, and sends it — cutting average reply time from ten minutes to two. Within weeks, the team clears its ticket backlog and frees up time for harder cases.+
@@ -47,7 +47,7 @@ An API acts like a controlled doorway between systems.
 
 Instead of employees manually copying information into an AI tool, software sends requests automatically and receives results within an existing workflow.
 
-```text
+```
 -For example, a customer service platform could automatically generate case summaries directly inside the CRM. Employees never leave the system they already use.-
 
 +For example, that same customer support team no longer has to copy each question into a separate AI tool. The helpdesk software calls the AI directly through an API, so a draft reply appears next to the ticket the moment it comes in. Agents never leave the system they already use.+
@@ -64,7 +64,7 @@ Sometimes organizations have needs that standard tools cannot meet.
 A custom model can be trained or tailored using proprietary data, specialized terminology, or unique business rules.
 
 For example, a finance organization might need an AI system that understands its internal chart of accounts and can identify unusual spending patterns.
-```text
+```
 +A general-purpose tool has never seen that company's specific account codes, vendor names, or spending history, so it can't tell a routine transaction from an unusual one. A custom model trained on years of the organization's own transaction data, labeled by its internal auditors, learns what "normal" looks like for that specific business and can flag deviations a generic tool would miss.+
 ```
 General-purpose tools may not perform consistently enough for that task.
@@ -83,7 +83,7 @@ Custom models are powerful, but they should not be the default starting point.
 ## Part 9
 
 When evaluating
-```text
+```
 -AI opportunities-
 +a potential AI use case+
 ```
@@ -105,7 +105,7 @@ This mindset reduces cost, speeds adoption, and avoids unnecessary complexity.
 
 Think about a real process in your workplace or studies.
 
-```text
+```
 -Could a ready-made tool improve it today?-
 +Could a ready-made tool improve it today — and if so, what's stopping you from trying it this week?+
 
